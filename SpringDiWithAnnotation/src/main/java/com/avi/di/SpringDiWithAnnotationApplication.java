@@ -1,14 +1,16 @@
 package com.avi.di;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDiWithAnnotationApplication {
+public class SpringDiWithAnnotationApplication{
 
+	
 	public static void main(String[] args) {
-		SpringApplication.run(SpringDiWithAnnotationApplication.class, args);
-		System.out.println("Hello Spring!");
+		//SpringApplication.run(SpringDiWithAnnotationApplication.class, args);
+		System.out.println("Hello Spring..");
 	}
+
+	
 
 }
